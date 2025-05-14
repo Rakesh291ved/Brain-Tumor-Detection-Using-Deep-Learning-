@@ -1,5 +1,6 @@
 # Brain-Tumor-Detection-Using-Deep-Learning-
 Brain Tumor Detection Using Deep Learning 
+
 🧠 Brain Tumor Detection Using Deep Learning 🤖
 This project involves detecting brain tumors using deep learning and image classification with a ResNet50 model. The model classifies brain tumor images into four categories: Meningioma, Glioma, Pituitary, and None. The system uses a Flask web app to allow users to upload medical images, and the model predicts the tumor type and provides a diagnosis.
 
@@ -40,7 +41,9 @@ The last fully connected layers are replaced with layers suitable for the task a
 php
 Copy
 Edit
+
 Brain-Tumor-Detection/
+
 │
 ├── app.py                       # Main Flask application with the prediction route
 ├── static/
