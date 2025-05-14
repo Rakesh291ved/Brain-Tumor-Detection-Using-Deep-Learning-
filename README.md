@@ -37,13 +37,7 @@ Pituitary
 
 The last fully connected layers are replaced with layers suitable for the task at hand, and the model is fine-tuned with a dataset of brain tumor images.
 
-📁 Project Structure
-php
-Copy
-Edit
-
 Brain-Tumor-Detection/
-
 │
 ├── app.py                       # Main Flask application with the prediction route
 ├── static/
@@ -56,6 +50,7 @@ Brain-Tumor-Detection/
 │   └── bt_resnet50_model.pt     # Pre-trained and fine-tuned model file
 ├── brain_tumor_dataset/         # Image dataset (training)
 └── README.md                    # This file
+
 💡 How It Works
 User Uploads Image: The user visits the web page, uploads a brain MRI or CT scan image.
 
